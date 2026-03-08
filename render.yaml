@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: syt-wallet-api-1
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
