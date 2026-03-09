@@ -1,7 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-const cors = require('express');
-
+const cors = require('cors');
 // ✅ استيراد البوت
 const bot = require('./bot');
 
